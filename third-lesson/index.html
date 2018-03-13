@@ -3,10 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/form.css">
 </head>
 <body>
-	<form method="GET" action="http://maximumstart.herokuapp.com/register">
+	<form class="form" method="GET" action="http://maximumstart.herokuapp.com/register">
 		<h1>Регистрация</h1>
 		<p>
 			<label for="namefield">Имя</label>
@@ -22,31 +22,31 @@
 		</p>
 		<p>
 			<label for="colorfield">Любимый цвет</label>
-			<input id="colorfield" type="text" name="color" required="">
+			<input id="colorfield" type="color" name="color" required="">
 		</p>
 		<p>
 			<label for="datefield">Сегодняшнее число</label>
-			<input id="datefield" type="text" name="data" required="">
+			<input id="datefield" type="text" name="date" required="">
 		</p>
 		<p>
 			<label for="password">Пароль</label>
 			<input id="password" type="password" name="password" required="">
 		</p>
 		<p>
-			<label for="gender">Мальчик</label>
-			<input name="gender" type="radio">
+			<label for="male">Мальчик</label>
+			<input id="male" name="gender" value="Мальчик" type="radio">
 		</p>
 		<p>
-			<label for="gender">Девочка</label>
-			<input name="gender" type="radio">
+			<label for="female">Девочка</label>
+			<input id="female" name="gender" value="Девочка" type="radio">
 		</p>
 		<p>
-			<label for="gender">Не определился</label>
-			<input name="gender" type="radio">
+			<label for="nodeterminate">Не определился</label>
+			<input id="nodeterminate" name="gender" value="Не определился" type="radio">
 		</p>
-		<p>Сообщение</p>
 		<p>
-			<textarea name="message" cols="30" rows="10"></textarea>
+			<label for="messaging">Сообщение</label>
+			<textarea id="messaging" name="message" cols="30" rows="10"></textarea>
 		</p>
 		<p>
 			<input type="submit" value="Отправить">
