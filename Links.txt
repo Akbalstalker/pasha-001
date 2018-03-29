@@ -1,2 +1,22 @@
-https://webdesign-master.ru/blog/html-css/2.html
-https://www.w3.org/
+https://github.com/MaximumStart/basic-course;        МАКСИМУМСТАРТ КУРС.
+
+
+https://webdesign-master.ru/blog/html-css/2.html;    Справочник EMMET сокращений/
+
+https://habrahabr.ru/post/51333/;                    Пуленепробиваемый HTML: 37 шагов к идеальной разметке
+
+https://github.com/MaximumStart/basic-course/blob/master/first-lesson/Additional.md; The perfect Front-End Checklist                                                                                      for modern websites and                                                                                       meticulous developers
+
+https://habrahabr.ru/;                               Актуальные и интересные статьи на русском
+https://medium.com/;                                 Актуальные и интересные статьи на английском
+
+https://docs.google.com/document/d/1NsSIElGCQ6BvFFpnPRSQdisfcBkq-W0WqcLrTM7wl2I/edit
+Требования к выпускному проекту
+
+https://www.w3.org/;                                 web standarts.
+
+Читаем про формы:                    https://webref.ru/course/html-content/forms
+Набор статей про табличную верстку:  http://htmlbook.ru/content/tablichnaya-verstka
+Стайлгайд от Google:                  https://habrahabr.ru/post/143452/
+
+
