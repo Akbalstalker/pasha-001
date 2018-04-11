@@ -16,7 +16,7 @@ html {
 
 
 .wrapper {
-	width: 924px;
+	width: 960px;
 	margin: 0 auto;
 }
 
@@ -89,5 +89,91 @@ header {
 }
 
 .feature {
-	max-width: 300px;
+	max-width: 320px;
+	display: flex;
+    align-items: center;
+}
+
+.sprite {
+    background-image: url(../img/spritesheets.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-facebook-ico {
+    width: 36px;
+    height: 36px;
+    background-position: -5px -5px;
+}
+
+.sprite-google-ico {
+    width: 36px;
+    height: 36px;
+    background-position: -51px -5px;
+}
+
+.sprite-icon-fa-android {
+    width: 33px;
+    height: 39px;
+    background-position: -97px -5px;
+}
+
+.sprite-icon-fa-apple {
+    width: 33px;
+    height: 39px;
+    background-position: -140px -5px;
+}
+
+.sprite-icon-fa-windows {
+    width: 39px;
+    height: 40px;
+    background-position: -5px -54px;
+}
+
+.sprite-icon-font-1 {
+    width: 33px;
+    height: 40px;
+    background-position: -54px -54px;
+}
+
+.sprite-icon-font-2 {
+    width: 52px;
+    height: 39px;
+    background-position: -97px -54px;
+}
+
+.sprite-icon-font-3 {
+    width: 43px;
+    height: 44px;
+    background-position: -97px -103px;
+}
+
+.sprite-icon-font-4 {
+    width: 51px;
+    height: 40px;
+    background-position: -183px -5px;
+}
+
+.sprite-icon-font-5 {
+    width: 47px;
+    height: 40px;
+    background-position: -159px -55px;
+}
+
+.sprite-icon-font-6 {
+    width: 36px;
+    height: 43px;
+    background-position: -5px -105px;
+}
+
+.sprite-pinterest-ico {
+    width: 36px;
+    height: 36px;
+    background-position: -51px -105px;
+}
+
+.sprite-twitter-ico {
+    width: 36px;
+    height: 36px;
+    background-position: -150px -105px;
 }
