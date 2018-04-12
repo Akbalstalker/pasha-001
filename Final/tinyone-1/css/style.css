@@ -20,6 +20,8 @@ html {
 	margin: 0 auto;
 }
 
+/*Стилизую хедэр*/
+
 header {
 	background-color: #fcdb00;
 }
@@ -51,6 +53,10 @@ header {
 	color: #010101;
 }
 
+/*.main-item {
+  margin: 22px;
+}*/
+
 .heading {
 	font-size: 32px;
 	line-height: 18px;
@@ -64,11 +70,6 @@ header {
 	color: #313841;
 }
 
-.text {
-	font-size: 16px;
-	line-height: 20px;
-	color: #555555;
-}
 
 .header-description {
 	max-width: 400px;
@@ -77,6 +78,33 @@ header {
 .store-buttons li {
 	display: inline-block;
 	padding: 0 22px;
+}
+
+/* Стилизую Секцию*/
+
+.feature-content {
+  font-size: 16px;
+  line-height: 20px;
+  color: #555555;
+}
+
+.icon {
+  margin: 0 26px 135px 0;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 32px;
+  line-height: 32px;
+  color: #010101;
+}
+
+.section-item {
+  text-align: center;
+  font-size: 20px;
+  line-height: 24px;
+  color: #313841;
+  max-width: 772px;
 }
 
 .features {
@@ -93,6 +121,61 @@ header {
 	display: flex;
     align-items: center;
 }
+
+/*Стилизую футер*/
+
+.footer {
+  /*background-color: #010101;*/
+}
+
+.footer-title {
+  text-align: center;
+  color: #fcdb00;
+  font-size: 32px;
+  line-height: 32px;
+}
+
+.footer-item {
+  text-align: center;
+  max-width: 772px;
+  color: #898989;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+/*textarea:-moz-placeholder {
+ color: #898989;
+  }*/
+
+  textarea::-webkit-input-placeholder {
+   color: #898989; 
+ }
+
+.button {
+  background-color: yellow;
+
+  /*Но это не точно*/
+  border-radius: 5px;
+}
+
+.social{
+  list-style-type: none;
+}
+
+.footer-menu {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-menu-item {
+  list-style-type: none;
+}
+
+/*Спрайты*/
 
 .sprite {
     background-image: url(../img/spritesheets.png);
