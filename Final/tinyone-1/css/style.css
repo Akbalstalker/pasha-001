@@ -105,6 +105,7 @@ header {
   line-height: 24px;
   color: #313841;
   max-width: 772px;
+  margin: 0 auto;
 }
 
 .features {
@@ -123,9 +124,18 @@ header {
 }
 
 /*Стилизую футер*/
+form {
+	text-align: center;
+	margin: 42px 0 80px;
+}
 
-.footer {
-  /*background-color: #010101;*/
+footer {
+  background-color: #010101;
+  height: 768px;
+}
+
+.footer-block {
+	margin-top: 50px; 
 }
 
 .footer-title {
@@ -141,25 +151,58 @@ header {
   color: #898989;
   font-size: 20px;
   line-height: 24px;
+  margin: 0 auto;
 }
 
-/*textarea:-moz-placeholder {
+.input-email::-moz-placeholder {
  color: #898989;
-  }*/
+  }
 
-  textarea::-webkit-input-placeholder {
+ .input-email::-webkit-input-placeholder {
    color: #898989; 
  }
 
-.button {
-  background-color: yellow;
 
-  /*Но это не точно*/
+ .input-email {
   border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  /*left: 333px;*/
+  /*top: 1740px;*/
+  width: 580px;
+  height: 50px;
+ }
+
+.button {
+  color: #010101;
+  font-size: 16px;
+  line-height: 24px;
+
+  text-transform: uppercase;
+  font-weight: 700;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(1, 1, 1);
+  border-radius: 4px;
+  background-color: #fcdb00;
+  /*left: 930px;
+  top: 1737px;*/
+  width: 130px;
+  height: 54px;
 }
 
-.social{
+.social-block {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-around;
+}
+
+.social li{
   list-style-type: none;
+  display: inline-block;
+  padding: 0 22px;
 }
 
 .footer-menu {
@@ -173,6 +216,9 @@ header {
 
 .footer-menu-item {
   list-style-type: none;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 /*Спрайты*/
