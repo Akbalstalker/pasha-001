@@ -3,17 +3,17 @@ html {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-
 *, *:before, *:after {
   -webkit-box-sizing: inherit;
   -moz-box-sizing: inherit;
   box-sizing: inherit;
   font-family: 'PT Sans', sans-serif;
-}
+  }
 
 body {
   	margin: 0;
 }
+
 
 .wrapper {
 	width: 960px;
@@ -23,94 +23,8 @@ body {
 a:hover {
   border-bottom: 2px solid #626262;
   transition: .25s ease-in-out;
+
 }
-
-/*Спрайты*/
-
-.sprite {
-    background-image: url(../img/spritesheets.png);
-    background-repeat: no-repeat;
-    display: block;
-}
-
-.sprite-facebook-ico {
-    width: 36px;
-    height: 36px;
-    background-position: -5px -5px;
-}
-
-.sprite-google-ico {
-    width: 36px;
-    height: 36px;
-    background-position: -51px -5px;
-}
-
-.sprite-icon-fa-android {
-    width: 33px;
-    height: 39px;
-    background-position: -97px -5px;
-}
-
-.sprite-icon-fa-apple {
-    width: 33px;
-    height: 39px;
-    background-position: -140px -5px;
-}
-
-.sprite-icon-fa-windows {
-    width: 39px;
-    height: 40px;
-    background-position: -5px -54px;
-}
-
-.sprite-icon-font-1 {
-    width: 33px;
-    height: 40px;
-    background-position: -54px -54px;
-}
-
-.sprite-icon-font-2 {
-    width: 52px;
-    height: 39px;
-    background-position: -97px -54px;
-}
-
-.sprite-icon-font-3 {
-    width: 43px;
-    height: 44px;
-    background-position: -97px -103px;
-}
-
-.sprite-icon-font-4 {
-    width: 51px;
-    height: 40px;
-    background-position: -183px -5px;
-}
-
-.sprite-icon-font-5 {
-    width: 47px;
-    height: 40px;
-    background-position: -159px -55px;
-}
-
-.sprite-icon-font-6 {
-    width: 36px;
-    height: 43px;
-    background-position: -5px -105px;
-}
-
-.sprite-pinterest-ico {
-    width: 36px;
-    height: 36px;
-    background-position: -51px -105px;
-}
-
-.sprite-twitter-ico {
-    width: 36px;
-    height: 36px;
-    background-position: -150px -105px;
-}
-
 
 /*Стилизую хедэр*/
 
@@ -147,16 +61,14 @@ header {
 	color: #010101;
 }
 
-.header-main {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+
+
+
+.main-item {
+  margin: 22px;
+  margin-left: 220px;
+
 }
-
-.header-description {
-	width: 400px;
-
-} 
 
 .heading {
 	font-size: 32px;
@@ -171,107 +83,29 @@ header {
 	color: #313841;
 }
 
-.text {
+
+.header-description {
 
 }
 
+/*Непонятно. Вся ширина хедера? От края весь блок?*/
 .store-buttons {
-	list-style-type: none;
-	display: flex;
-	padding: 0;
-	width: 250px;
-	display: flex;
-	justify-content: space-between;
+  padding: 0px 0px 0px 220px;
 }
 
 .store-buttons li {
-		
+	display: inline-block;
+	padding: 0 22px;
 }
-
 
 .tablet-border {
 	width: 310px;
 	height: 480px;
-	background-color: #fff;
 	border-radius: 25px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.tablet-logo {
-	width: 290px;
-	height: 380px;
-	background-color: #000;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.tablet-logo a {
-	margin-right: 10px;
-}
-
-.white-dots {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-}
-
-.dot2, .dot3 {
-	width: 15px;
-	height: 15px;
 	background-color: #fff;
-	border-radius: 50%;
-	margin: 0 0 0 10px;
 }
-
-.dot1 {
-	opacity: .6;
-	width: 15px;
-	height: 15px;
-	background-color: #fff;
-	border-radius: 50%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*/*
-/*Непонятно. Вся ширина хедера? От края весь блок?*/
-
 
 /* Стилизую Секцию*/
-
-.section {
-	margin-bottom: 50px;
-}
 
 .feature-content {
   font-size: 16px;
@@ -327,7 +161,7 @@ footer {
 }
 
 .footer-block {
-	padding-top: 100px;
+	margin-top: 50px; 
 }
 
 .footer-title {
@@ -438,3 +272,88 @@ footer {
 	text-decoration: none;
 }
 
+/*Спрайты*/
+
+.sprite {
+    background-image: url(../img/spritesheets.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-facebook-ico {
+    width: 36px;
+    height: 36px;
+    background-position: -5px -5px;
+}
+
+.sprite-google-ico {
+    width: 36px;
+    height: 36px;
+    background-position: -51px -5px;
+}
+
+.sprite-icon-fa-android {
+    width: 33px;
+    height: 39px;
+    background-position: -97px -5px;
+}
+
+.sprite-icon-fa-apple {
+    width: 33px;
+    height: 39px;
+    background-position: -140px -5px;
+}
+
+.sprite-icon-fa-windows {
+    width: 39px;
+    height: 40px;
+    background-position: -5px -54px;
+}
+
+.sprite-icon-font-1 {
+    width: 33px;
+    height: 40px;
+    background-position: -54px -54px;
+}
+
+.sprite-icon-font-2 {
+    width: 52px;
+    height: 39px;
+    background-position: -97px -54px;
+}
+
+.sprite-icon-font-3 {
+    width: 43px;
+    height: 44px;
+    background-position: -97px -103px;
+}
+
+.sprite-icon-font-4 {
+    width: 51px;
+    height: 40px;
+    background-position: -183px -5px;
+}
+
+.sprite-icon-font-5 {
+    width: 47px;
+    height: 40px;
+    background-position: -159px -55px;
+}
+
+.sprite-icon-font-6 {
+    width: 36px;
+    height: 43px;
+    background-position: -5px -105px;
+}
+
+.sprite-pinterest-ico {
+    width: 36px;
+    height: 36px;
+    background-position: -51px -105px;
+}
+
+.sprite-twitter-ico {
+    width: 36px;
+    height: 36px;
+    background-position: -150px -105px;
+}
