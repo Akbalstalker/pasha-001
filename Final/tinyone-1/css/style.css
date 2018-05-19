@@ -16,8 +16,9 @@ body {
 }
 
 .wrapper {
-	width: 960px;
+	width: 1040px;
 	margin: 0 auto;
+	padding-left: 80px;
 }
 
 a:hover {
@@ -124,6 +125,8 @@ header {
 
 .navigation {
 	display: flex;
+	padding-top: 60px;
+
 }
  
 .menu {
@@ -155,6 +158,7 @@ header {
 
 .header-description {
 	width: 400px;
+	margin-top: 105px;
 
 } 
 
@@ -169,19 +173,24 @@ header {
 	font-size: 20px;
 	line-height: 24px;
 	color: #313841;
+	margin-top: 25px;
+	width: 310px;
 }
 
 .text {
-
+	font-size: 16px;
+	line-height: 20px;
+	color: #555555;
 }
 
 .store-buttons {
 	list-style-type: none;
 	display: flex;
 	padding: 0;
-	width: 250px;
+	width: 180px;
 	display: flex;
 	justify-content: space-between;
+	margin-top: 40px;
 }
 
 .store-buttons li {
@@ -197,6 +206,8 @@ header {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin-right: 70px;
+	margin-top: 50px;
 }
 
 .tablet-logo {
@@ -205,17 +216,22 @@ header {
 	background-color: #000;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	/*align-items: center;*/
+	padding-top: 149px;
 }
 
 .tablet-logo a {
-	margin-right: 10px;
+	margin: 0px 5px 0px 5px;
+}
+.logo2 {
+	padding-top: 10px;
 }
 
 .white-dots {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
+	padding: 35px 40px 50px 0;
 }
 
 .dot2, .dot3 {
@@ -223,7 +239,7 @@ header {
 	height: 15px;
 	background-color: #fff;
 	border-radius: 50%;
-	margin: 0 0 0 10px;
+	margin: 0 0 0 5px;
 }
 
 .dot1 {
@@ -235,34 +251,6 @@ header {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*/*
 /*Непонятно. Вся ширина хедера? От края весь блок?*/
 
@@ -270,7 +258,8 @@ header {
 /* Стилизую Секцию*/
 
 .section {
-	margin-bottom: 50px;
+	margin-bottom: 125px;
+	margin-top: 110px;
 }
 
 .feature-content {
@@ -288,6 +277,7 @@ header {
   font-size: 32px;
   line-height: 32px;
   color: #010101;
+  margin-bottom: 15px;
 }
 
 .section-item {
@@ -297,6 +287,7 @@ header {
   color: #313841;
   max-width: 772px;
   margin: 0 auto;
+  margin-bottom: 85px;
 }
 
 .features {
@@ -317,17 +308,15 @@ header {
 /*Стилизую футер*/
 form {
 	text-align: center;
-	margin: 42px 0 80px;
+	margin: 30px 40px 80px 0px;
 }
 
 footer {
-  background-color: #010101;
-  width: 1400px;
-   height: 768px; 
+  background-color: #010101; 
 }
 
 .footer-block {
-	padding-top: 100px;
+	padding-top: 70px;
 }
 
 .footer-title {
@@ -364,6 +353,7 @@ footer {
   /*top: 1740px;*/
   width: 580px;
   height: 50px;
+  margin-right: 15px;
  }
 
 .button {
@@ -410,18 +400,17 @@ footer {
   text-align: center;
 }
 
-.social li{
+.social {
+	display: flex;
+	display: inline-flex;
   list-style-type: none;
-  display: inline-block;
   padding: 0 14px;
   margin-bottom: 130px;
+  width: 270px;
+  justify-content: space-between;
 }
 
 .footer-menu {
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
   display: flex;
   justify-content: space-around;
 }
