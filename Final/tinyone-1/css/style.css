@@ -390,36 +390,37 @@ footer {
 /*Состояниея для кнопки*/
 
 .social-block {
-  /*! display: -webkit-flex; */
-  /*! display: -moz-flex; */
-  /*! display: -ms-flex; */
-  /*! display: -o-flex; */
-  /*! display: flex; */
-  /*! justify-content: center; */
-  /*! margin: 0 auto; */
-  text-align: center;
+  /* display: -webkit-flex; 
+   display: -moz-flex; 
+   display: -ms-flex; 
+   display: -o-flex; 
+   display: flex; 
+   justify-content: center; 
+   margin: 0 auto; */
+  margin-left: 300px; 
 }
 
 .social {
 	display: flex;
 	display: inline-flex;
-  list-style-type: none;
-  padding: 0 14px;
-  margin-bottom: 130px;
-  width: 270px;
-  justify-content: space-between;
+ 	list-style-type: none;
+ 	padding: 0 14px;
+ 	 margin-bottom: 110px;
+ 	 width: 270px;
+  	justify-content: space-between;
 }
 
 .footer-menu {
-  display: flex;
-  justify-content: space-around;
+	padding: 0 60px 125px 0;
+  	display: flex;
+ 	justify-content: space-between;
 }
 
 .footer-menu-item {
-  list-style-type: none;
-  color: #ffffff;
-  font-size: 16px;
-  line-height: 20px;
+  	list-style-type: none;
+  	color: #ffffff;
+	 font-size: 16px;
+	 line-height: 20px;
 }
 
 .footer-menu-item li a {
